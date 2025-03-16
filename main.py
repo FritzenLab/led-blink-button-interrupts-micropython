@@ -1,7 +1,7 @@
 from machine import Pin, Timer
 import time
-import gc
-gc.collect()
+#import gc
+#gc.collect()
 
 
 button = Pin(14,Pin.IN,Pin.PULL_UP) #Pi Pico 2
